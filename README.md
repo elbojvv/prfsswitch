@@ -15,7 +15,7 @@ make
 ```
 
 # Installing 
-The program should be started with sudo:
+The program should be started as super user:
 ```
 sudo prfs_switch &
 ```
