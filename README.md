@@ -17,5 +17,5 @@ make
 # Installing 
 The program should be started with sudo:
 ```
-sudo ../prfsswitch/prfs_switch &
+sudo prfs_switch &
 ```
