@@ -5,6 +5,7 @@ A LED, with a resistor of 330 Ohm, is connected to GPIO23 and ground. A 3 way sw
 - In the normal mode GPIO 24 is connected to ground.
 - In the rPRFS mode GPIO 25 is connected to ground.
 - No pins are connected to ground in read only mode.
+See file Switch_schematics.jpg.
 
 The program reads the switch, controls the LED and sends the status to /proc/prfs_mode.
 
