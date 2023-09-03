@@ -68,7 +68,6 @@ void alert(int gpio, int level, uint32_t tick)
 int main(int argc, char *argv[])
 {
 	int msec=0;
-	prfsmode_old = prfsmode;
 
 	if (gpioInitialise()<0) return 1;
 
@@ -80,6 +79,7 @@ int main(int argc, char *argv[])
 
 	gpioDelay(1000); // time to settle switch
 	prfsmode = get_switch();
+	prfsmode_old = prfsmode;
 	write_prfsmode_file(); // write current status before alert
 
 	gpioSetAlertFunc(GPIO_SWITCH1, alert);
