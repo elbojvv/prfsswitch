@@ -4,13 +4,9 @@
 
 /*
 
-pps.c
-2020-09-18
-Public Domain
-
-gcc -o pps pps.c -lpigpio
-
-sudo ./pps
+Losely based on pps.c
+E.J. van Veldhuizen
+GPL license
 
 */
 
