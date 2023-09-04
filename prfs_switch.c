@@ -11,10 +11,10 @@ GPL license
 
 #define PRFS_MODE_FILENAME  "/proc/prfs_mode"   /* PRFS mode file name for the kernel module */
 
-#define GPIO_LED       23   /* gpio for LED */
-#define GPIO_SWITCH1   24   /* gpio for switch: prfs mode */
-#define GPIO_SWITCH2   25   /* gpio for switch: reversed prfs mode */
-#define DELAY_MS        1   /* delay (ms) in loop */
+#define GPIO_LED        23   /* gpio for LED */
+#define GPIO_SWITCH1    24   /* gpio for switch: prfs mode */
+#define GPIO_SWITCH2    25   /* gpio for switch: reversed prfs mode */
+#define DELAY_MS         1   /* delay (ms) in loop */
 
 #define PRFS_MODE_PRFS   0   /* PRFS mode: PRFS */
 #define PRFS_MODE_RO     1   /* PRFS mode: read only */
