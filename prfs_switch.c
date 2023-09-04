@@ -4,7 +4,6 @@
 
 /*
 
-Losely based on pps.c
 E.J. van Veldhuizen
 GPL license
 
