@@ -5,7 +5,7 @@
 
 E.J. van Veldhuizen
 GPL license
-Tested on Raspberry Pi OS, Linux kernel 6.1.21+
+Tested on Raspberry Pi OS, Linux kernel 6.1.21+ on RPi ZW
 
 */
 
